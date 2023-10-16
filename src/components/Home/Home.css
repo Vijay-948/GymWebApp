@@ -1,0 +1,85 @@
+/* section{
+  width: 100%;
+} */
+.hero {
+  position: relative;
+  width: 100;
+  background-size: cover;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  /* background-size: cover; */
+  /* padding-top: 56.25%; 16:9 aspect ratio for widescreen videos */
+}
+
+.video-bg {
+  /* position: fixed;  */
+  right: 0;
+  bottom: 0;
+  width: 100%;
+ 
+  /* height: 100%;  */
+
+ 
+  height: 100%;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  background: rgba(70, 51, 51, 0.5); /* Semi-transparent background */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 241, 240); /* Text color on the overlay */
+  text-align: center;
+  z-index: 1; /* Ensure the text is on top */
+  line-height: 3.8rem;
+
+  
+}
+h2 {
+  font-size: 3rem;
+}
+h1 {
+    font-size: 9rem;
+}
+
+/* Define the animation keyframes */
+@keyframes textAnimation {
+  0% {
+    color: #FF5733; /* Initial color */
+  }
+  25% {
+    color: #337DFF; /* Color at 25% of the animation */
+  }
+  50% {
+    color: #33FF57; /* Color at 50% of the animation */
+  }
+  75% {
+    color: #FF337D; /* Color at 75% of the animation */
+  }
+  100% {
+    color: #FF5733; /* Final color, same as the initial color */
+  }
+}
+
+/* Apply the animation to the h1 tag */
+h4 {
+  font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+  font-size: 2em; /* Adjust the font size as needed */
+  animation: textAnimation 4s linear infinite; /* Apply the animation */
+}
+
+
+  
