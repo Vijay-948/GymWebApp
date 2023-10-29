@@ -21,7 +21,7 @@ const Home = () => {
           
           <h1>BODY SHAPE</h1>
           <br />
-          <h4>PUSH THROUGH THE PAIN EVERY SINGLE DAY</h4>
+          <h4>PUSH THROUGH THE PAIN EVERY SINGLE DAY.</h4>
         </div>
         
      
