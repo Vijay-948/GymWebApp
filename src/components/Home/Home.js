@@ -1,6 +1,8 @@
 import style from "./Home.css";
 import videoFile from "../../images/boxing.mp4";
 
+import Navbar from "./Navbar/Navbar";
+
 const Home = () => {
   return (
     <section className="hero" style={style}>
@@ -9,6 +11,8 @@ const Home = () => {
           <source src={videoFile} type="video/mp4" />
         </video>
       </div>
+
+      <Navbar />
       <div className="overlay"></div>
 
       <div className="content">

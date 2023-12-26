@@ -7,9 +7,16 @@ const Navbar = () => {
   const [openMenu, setopenMenu] = useState(false);
 
   return (
-    <nav>
+    <nav className="nav">
       <Container>
         <Menu openMenu={openMenu} />
+        <i
+          onClick={() => setopenMenu(!openMenu)}
+          id="burgerMenu"
+          className={
+            openMenu ? "fas fa-times fa-lg" : "fas fa-align-right fa-lg"
+          }
+        ></i>
       </Container>
     </nav>
   );
