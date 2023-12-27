@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <Container>
+      <Container className="container">
         <Menu openMenu={openMenu} />
         <i
           onClick={() => setopenMenu(!openMenu)}

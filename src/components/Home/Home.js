@@ -1,7 +1,9 @@
 import style from "./Home.css";
 import videoFile from "../../images/boxing.mp4";
 
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar/Navbar.js";
+import Overlay from "../GlobalComponents/Overlay";
+// import Overlay from "../GlobalComponents/Overlay";
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
       </div>
 
       <Navbar />
-      <div className="overlay"></div>
+      <Overlay />
 
       <div className="content">
         <h2>BUILD UP YOUR</h2>

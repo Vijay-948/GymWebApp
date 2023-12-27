@@ -1,11 +1,7 @@
-import { css } from "@emotion/core";
+import "./Overlay.css";
 
 const Overlay = () => {
-  return <div css={styles} className="overlay"></div>;
+  return <div className="overlay"></div>;
 };
-
-const styles = css`
-  position: absolute;
-`;
 
 export default Overlay;
