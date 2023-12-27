@@ -34,7 +34,7 @@ section {
   transform: translate(-50%, -50%);
   color: rgb(247, 241, 240);
   text-align: center;
-  z-index: 1; /* Ensure the text is on top */
+  z-index: 1;
   line-height: 3.8rem;
 }
 h2 {
@@ -44,28 +44,26 @@ h1 {
   font-size: 6rem;
 }
 
-/* Define the animation keyframes */
 @keyframes textAnimation {
   0% {
-    color: #ff5733; /* Initial color */
+    color: #ff5733;
   }
   25% {
-    color: #337dff; /* Color at 25% of the animation */
+    color: #337dff;
   }
   50% {
-    color: #1505f8; /* Color at 50% of the animation */
+    color: #1505f8;
   }
   75% {
-    color: #f70808; /* Color at 75% of the animation */
+    color: #f70808;
   }
   100% {
-    color: #05bbf3; /* Final color, same as the initial color */
+    color: #05bbf3;
   }
 }
 
-/* Apply the animation to the h1 tag */
 h4 {
-  font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
-  font-size: 2em; /* Adjust the font size as needed */
-  animation: textAnimation 4s linear infinite; /* Apply the animation */
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  animation: textAnimation 4s linear infinite;
 }

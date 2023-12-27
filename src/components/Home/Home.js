@@ -13,7 +13,9 @@ const Home = () => {
           <source src={videoFile} type="video/mp4" />
         </video>
       </div>
-
+      <span>
+        <Navbar />
+      </span>
       <Navbar />
       <Overlay />
 
