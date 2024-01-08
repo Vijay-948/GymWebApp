@@ -1,7 +1,9 @@
-const Button = ({ text }) => {
+import "./Button.css";
+
+const Button = ({ text }) => (
   <a href="#/" className="btn" role="button">
     {text}
-  </a>;
-};
+  </a>
+);
 
 export default Button;
