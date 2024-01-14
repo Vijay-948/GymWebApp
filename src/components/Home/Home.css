@@ -1,0 +1,69 @@
+section {
+  width: 100%;
+}
+.hero {
+  position: relative;
+  width: 100;
+  background-size: cover;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  /* background-size: cover; */
+  /* padding-top: 56.25%; 16:9 aspect ratio for widescreen videos */
+}
+
+.video-bg {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+
+  height: 100%;
+
+  max-height: 1500px;
+  /* background-size: cover; */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 241, 240);
+  text-align: center;
+  z-index: 1;
+  line-height: 3.8rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h1 {
+  font-size: 6rem;
+}
+
+@keyframes textAnimation {
+  0% {
+    color: #ff5733;
+  }
+  25% {
+    color: #337dff;
+  }
+  50% {
+    color: #1505f8;
+  }
+  75% {
+    color: #f70808;
+  }
+  100% {
+    color: #05bbf3;
+  }
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  animation: textAnimation 4s linear infinite;
+}
