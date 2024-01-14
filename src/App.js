@@ -2,10 +2,14 @@ import React from "react";
 
 import "./App.css";
 
+import Home from './components/Home/Menu'
+
 
 function App() {
   return (
-    <></>
+    <div>
+      <Home />
+    </div>
   );
 }
 
