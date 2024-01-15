@@ -1,15 +1,17 @@
-import React from "react";
+
 
 import "./App.css";
+import Button from "./components/GlobalComponents/Button.js";
 
-import Main from "./components/Main/Main";
+import Menu from './components/Navbar/Menu.js';
 
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <>
+      <Menu />
+      <Button/>
+    </>
   );
 }
 
