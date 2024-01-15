@@ -2,13 +2,13 @@ import React from "react";
 
 import "./App.css";
 
-import Home from './components/Home/Menu'
+import Main from "./components/Main/Main";
 
 
 function App() {
   return (
     <div>
-      <Home />
+      <Main />
     </div>
   );
 }
